@@ -1,8 +1,9 @@
 # Autometed Coal mine Saftey monetering and alerting system using IOT
 
 Mine Safety Monitoring and Alerting System is an innovative system designed for mining environments, which uses IoT technology to ensure safety and rapid response to potential threats.
-![image](https://github.com/vineetshekhar05/Coal-mine-Safety/assets/146079295/d10e0e40-21f3-45e7-bd77-6ea7e91e9140)
-
+This autonomous device is equipped with sensors and communication modules that continuously monitor crucial parameters like temperature, gas and smoke levels. 
+It operates independently, and when finding hazardous conditions sending alerts to the control centers. 
+This proactive approach helps in safety of miners in the mining fields with pre-warnings and alert messages to take safety precautions within times.
 
 <p float="left">
   <img src="https://static.vecteezy.com/system/resources/previews/012/697/300/original/3d-c-programming-language-logo-free-png.png" width="90" height="90">
