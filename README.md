@@ -1,6 +1,6 @@
 # Coal-mine-Safety
 
-# Safety Headgear for Underground Tunnel Workers
+# Autometed Coal mine Saftey monetering and alerting system using IOT
 
 The project centers on crafting a safety headgear tailored for underground tunnel workers. Key features include real-time location tracking and monitoring of temperature, pressure, and air quality. The primary goal is to enhance worker safety in the face of potential hazards like temperature fluctuations, pressure changes, or exposure to gases during tunneling incidents. Wireless communication facilitates connectivity between tunnel workers and the external world, with GPS technology ensuring precise location tracking for emergency response. The design prioritizes portability, cost-effectiveness, and durability to meet the specific needs of underground tunnel workers.
 
