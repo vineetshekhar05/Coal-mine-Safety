@@ -1,8 +1,8 @@
-# Coal-mine-Safety
-
 # Autometed Coal mine Saftey monetering and alerting system using IOT
 
-The project centers on crafting a safety headgear tailored for underground tunnel workers. Key features include real-time location tracking and monitoring of temperature, pressure, and air quality. The primary goal is to enhance worker safety in the face of potential hazards like temperature fluctuations, pressure changes, or exposure to gases during tunneling incidents. Wireless communication facilitates connectivity between tunnel workers and the external world, with GPS technology ensuring precise location tracking for emergency response. The design prioritizes portability, cost-effectiveness, and durability to meet the specific needs of underground tunnel workers.
+Mine Safety Monitoring and Alerting System is an innovative system designed for mining environments, which uses IoT technology to ensure safety and rapid response to potential threats.
+![image](https://github.com/vineetshekhar05/Coal-mine-Safety/assets/146079295/d10e0e40-21f3-45e7-bd77-6ea7e91e9140)
+
 
 <p float="left">
   <img src="https://static.vecteezy.com/system/resources/previews/012/697/300/original/3d-c-programming-language-logo-free-png.png" width="90" height="90">
