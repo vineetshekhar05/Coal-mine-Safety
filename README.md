@@ -6,11 +6,10 @@ It operates independently, and when finding hazardous conditions sending alerts 
 This proactive approach helps in safety of miners in the mining fields with pre-warnings and alert messages to take safety precautions within times.
 
 <p float="left">
-  <img src="https://static.vecteezy.com/system/resources/previews/012/697/300/original/3d-c-programming-language-logo-free-png.png" width="90" height="90">
   <img src="https://brandslogos.com/wp-content/uploads/images/large/arduino-logo-1.png" width="70" height="70" style="margin-left: 10px;">
 </p>
 
-**Overview**
+# Overview
 
 IOT Based Coal Mine Safety Monitoring project consists of two hardware modules, one transmitter, and one receiver. The main controller in both modules is an Arduino board.
 Transmitter module: It is installed inside the coal mine. The transmitter module contains the smoke sensor, temperature sensor, and methane sensor. The transmitter module also has an LCD. All the sensor data is displayed on the LCD display by Arduino. The RF transmitter present on the transmitter module sends the sensor data to the receiver module.
@@ -18,19 +17,7 @@ Receiver module: It has an Arduino controller, LCD display, and an RF receiver. 
 The remote server has an IOT platform installed on it which displays the relevant data using the GUI which helps the users in monitoring and system control.
 
 **Technologies, Software, and Main Hardware Components Used**
-
-**Arduino IDE**
-
-The Arduino Integrated Development Environment (IDE) is the software platform for programming and uploading code to the Arduino hardware. It facilitates communication and programming of the Arduino UNO microcontroller.
-
-<img src="https://static.javatpoint.com/tutorial/arduino/images/arduino-ide.png" width="506" height="414">
-
-**NRF24L01+PA+LNA 2.4G Wireless Transceiver Module with SMA Antenna**
-
-The NRF24L01 module facilitates wireless communication between the reporting and helmet sections, operating at 2.4 GHz ISM Band with a baud rate of 250 kbps - 2 Mbps. It allows for easy data transmission and reception.
-
-<img src="https://www.twinschip.com/image/catalog/Products%20Twins%20Chip%20Store%202020/Shield%20Modules/Wireless%20Modules/NRF24L01%20Wireless%202.4GHz%20Transceiver%20Antenna%201100%20Metres%20/NRF24L01%2BPA-LNA%20SMA%20Wireless%202.4GHz%20Transceiver%20Antenna%201100%20Metres%20-Twins%20Chip.jpg" width="384" height="258">
-
+# Technology used to collect and shows real time data sending by Aurdino - ThingSpeak
 **Arduino UNO Microcontroller**
 
 The Arduino UNO R3 microcontroller, equipped with 14 digital pins, PWM outputs, and six analog inputs, serves as the project's control unit. It features a 16 MHz crystal oscillator, USB port, power jack, ICSP header, and a reset button.
@@ -39,39 +26,28 @@ The Arduino UNO R3 microcontroller, equipped with 14 digital pins, PWM outputs, 
 
 **MQ135 Air Quality Gas Sensor Module**
 
-The project incorporates the MQ-135 digital sensor to measure air quality in parts per million (PPM). This sensor detects various gases in the atmosphere, signaling when gas levels exceed predefined thresholds.
+The project incorporates the MQ-2 digital sensor to measure air quality in parts per million (PPM). This sensor detects various gases in the atmosphere, signaling when gas levels exceed predefined thresholds.
 
 <img src="https://cdn.shopify.com/s/files/1/0527/2692/3444/files/MQ135_-_Air_Quality_Control_Gas_Sensor_Module.jpg?v=1631792819" width="629" height="287">
 
-**MPU-6050 Triple Axis Analog Accelerometer Gyroscope Module**
+**GSM Module**
 
-The MPU6050 sensor module, a 6-axis motion tracking system, includes a 3-axis gyroscope, a 3-axis accelerometer, and a temperature sensor. It communicates via an I2C bus interface and provides accurate temperature readings.
+In coal mining safety, GSM (Global System for Mobile communication) modules are employed as vital communication tools.
+These modules enable real-time transmission of safety alerts, data, and status updates from underground mines to surface control centers or control center. 
 
-<img src="https://grobotronics.com/images/detailed/106/gy521_01_lrg_grobo.jpg" width="440" height="285">
+<img src="https://robosynckits.in/wp-content/uploads/2020/12/8A.jpg" width="440" height="285">
 
-**BMP180 Pressure Sensor**
+**Temerature Sensor**
 
 The BMP180 high-precision sensor measures barometric pressure digitally, accounting for temperature variations. It is utilized to monitor pressure in underground tunnels.
 
-<img src="https://www.rhydolabz.com/wiki/wp-content/uploads/combined.jpg" width="566" height="221">
-
-**NEO-7M GPS Module with Antenna**
-
-The NEO-7M GPS module employs Ublox technology and a built-in active GPS antenna. It provides accurate positioning data, enhancing performance with multirotor control platforms.
-
-<img src="https://www.orbit-dz.com/wp-content/uploads/2022/12/H41dd931b5c434fcb8e83cbd584e2117fR.jpg" width="320" height="320">
+<img src="https://www.iqsdirectory.com/articles/thermocouple/temperature-sensors/digital-temperature-sensor.jpg" width="566" height="221">
 
 **16x4 LCD Display**
 
 The 16x4 LCD display is employed to showcase outputs from oxygen, carbon dioxide, and temperature sensors. It is chosen for its programmability, ability to display custom characters, and cost-effectiveness.
 
 <img src="https://m.media-amazon.com/images/I/41iRb1AmRsL._AC_UF1000,1000_QL80_.jpg" width="500" height="350">
-
-**I2C module**
-
-Leveraging the I2C module simplifies LCD display control, streamlining communication through a two-wire interface. This method enhances efficiency in managing and presenting information on the LCD screen with reduced wiring complexity.
-
-<img src="https://i0.wp.com/microdigisoft.com/blogadmin/images/Arduino/i2clcd/pin1.png?ssl=1">
 
 **Power Source**
 
