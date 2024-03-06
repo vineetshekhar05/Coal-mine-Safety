@@ -12,15 +12,12 @@ This proactive approach helps in safety of miners in the mining fields with pre-
 
 **Overview**
 
-This project comprises two primary components: the Helmet Unit and the Control Unit. Arduino is the cornerstone for developing our mining tracking and safety helmet system. The key objectives involve acquiring real-time data such as location, temperature, air quality, and pressure. A robust communication system has been established between the underground miners' safety helmets and the main control unit situated on the ground surface. The programming for the entire system is done using the C programming language.
-
-The Control Unit predominantly functions as a receiver, while the Helmet Units primarily act as transmitters, relaying location data and other pertinent information. Notably, all three units in the system can operate interchangeably as both transmitters and receivers, showcasing a versatile communication network. This GitHub repository provides the codebase and documentation for seamless understanding and utilization of the project.
+IOT Based Coal Mine Safety Monitoring project consists of two hardware modules, one transmitter, and one receiver. The main controller in both modules is an Arduino board.
+Transmitter module: It is installed inside the coal mine. The transmitter module contains the smoke sensor, temperature sensor, and methane sensor. The transmitter module also has an LCD. All the sensor data is displayed on the LCD display by Arduino. The RF transmitter present on the transmitter module sends the sensor data to the receiver module.
+Receiver module: It has an Arduino controller, LCD display, and an RF receiver. The RF receiver receives the sensor values from the RF transmitter on the transmitter module. The received sensor values are displayed on the LCD screen. The Arduino also sends the sensor data to the remote IOT server using the WiFi module every two minutes. If any of the sensor values exceeds a particular threshold level, the buzzer is turned on to notify the concerned personnel.
+The remote server has an IOT platform installed on it which displays the relevant data using the GUI which helps the users in monitoring and system control.
 
 **Technologies, Software, and Main Hardware Components Used**
-
-**RF Wireless Technology**
-
-Utilized for wireless communication, RF technology operates in the electromagnetic spectrum's radio wave frequencies, providing communication channels without the need for an air-based medium.
 
 **Arduino IDE**
 
